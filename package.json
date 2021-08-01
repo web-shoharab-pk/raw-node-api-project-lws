@@ -1,0 +1,13 @@
+{
+  "name": "raw-node-api-project-lws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=staging nodemon index",
+    "production": "NODE_ENV=production nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shoharab Pk",
+  "license": "ISC"
+}
