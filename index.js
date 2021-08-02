@@ -10,9 +10,9 @@ const { handleReqRes } = require('./helpers/handleReqRes')
 const app = {};
 
 // testing file system
-data.delete('test', 'newFile+',  function(err) { 
-    console.log('Error was', err,)
-} )
+// data.delete('test', 'newFile+',  function(err) { 
+//     console.log('Error was', err,)
+// } ) 
 
 // create server
 app.createServer = () => {
